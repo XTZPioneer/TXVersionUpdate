@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => 'https://github.com/XTZPioneer/TXVersionUpdate.git', :tag => s.version.to_s }
   #s.public_header_files = 'TXVersionUpdate/TXVersionUpdate.h' 
-  s.source_files = 'TXVersionUpdate/Core/*.{h,m}'
+  s.source_files = 'TXVersionUpdate/**/*.{h,m}'
   s.requires_arc = true  
 end
