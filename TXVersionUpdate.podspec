@@ -1,5 +1,3 @@
-# https://github.com/XTZPioneer/TXVersionUpdate.git
-
 Pod::Spec.new do |s|
   s.name         = 'TXVersionUpdate'
   s.version      = '0.0.1'
