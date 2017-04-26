@@ -15,7 +15,7 @@
     [super viewDidLoad];
 
     //appID:应用在Store里面的ID (应用的AppStore地址里面可获取)
-    [TXVersionUpdateManager checkNewEditionWithAppID:@"" ctrl:self];
+    [TXVersionUpdateManager checkNewEditionWithAppID:@"1188958096" ctrl:self];
     //1种用法，系统Alert
     
     
