@@ -15,8 +15,8 @@
 		0CB001101EB02E6400383BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB0010E1EB02E6400383BB3 /* LaunchScreen.storyboard */; };
 		0CB0011B1EB02E6500383BB3 /* TXVersionUpdateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0011A1EB02E6500383BB3 /* TXVersionUpdateDemoTests.m */; };
 		0CB001261EB02E6500383BB3 /* TXVersionUpdateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB001251EB02E6500383BB3 /* TXVersionUpdateDemoUITests.m */; };
-		0CB0014B1EB02F5A00383BB3 /* TXAppStoreInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB001471EB02F5A00383BB3 /* TXAppStoreInfoModel.m */; };
-		0CB0014C1EB02F5A00383BB3 /* TXVersionUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB001491EB02F5A00383BB3 /* TXVersionUpdateManager.m */; };
+		0CB001531EB0422B00383BB3 /* TXAppStoreInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0014F1EB0422B00383BB3 /* TXAppStoreInfoModel.m */; };
+		0CB001541EB0422B00383BB3 /* TXVersionUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB001521EB0422B00383BB3 /* TXVersionUpdateManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +53,11 @@
 		0CB001211EB02E6500383BB3 /* TXVersionUpdateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXVersionUpdateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB001251EB02E6500383BB3 /* TXVersionUpdateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXVersionUpdateDemoUITests.m; sourceTree = "<group>"; };
 		0CB001271EB02E6500383BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CB001461EB02F5A00383BB3 /* TXAppStoreInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAppStoreInfoModel.h; sourceTree = "<group>"; };
-		0CB001471EB02F5A00383BB3 /* TXAppStoreInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAppStoreInfoModel.m; sourceTree = "<group>"; };
-		0CB001481EB02F5A00383BB3 /* TXVersionUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVersionUpdateManager.h; sourceTree = "<group>"; };
-		0CB001491EB02F5A00383BB3 /* TXVersionUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXVersionUpdateManager.m; sourceTree = "<group>"; };
-		0CB0014A1EB02F5A00383BB3 /* TXVersionUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVersionUpdate.h; sourceTree = "<group>"; };
+		0CB0014E1EB0422B00383BB3 /* TXAppStoreInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAppStoreInfoModel.h; sourceTree = "<group>"; };
+		0CB0014F1EB0422B00383BB3 /* TXAppStoreInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAppStoreInfoModel.m; sourceTree = "<group>"; };
+		0CB001501EB0422B00383BB3 /* TXVersionUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVersionUpdate.h; sourceTree = "<group>"; };
+		0CB001511EB0422B00383BB3 /* TXVersionUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVersionUpdateManager.h; sourceTree = "<group>"; };
+		0CB001521EB0422B00383BB3 /* TXVersionUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXVersionUpdateManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		0CB000F41EB02E6400383BB3 = {
 			isa = PBXGroup;
 			children = (
-				0CB001441EB02F5A00383BB3 /* TXVersionUpdate */,
+				0CB0014D1EB0422B00383BB3 /* TXVersionUpdate */,
 				0CB000FF1EB02E6400383BB3 /* TXVersionUpdateDemo */,
 				0CB001191EB02E6400383BB3 /* TXVersionUpdateDemoTests */,
 				0CB001241EB02E6500383BB3 /* TXVersionUpdateDemoUITests */,
@@ -148,24 +148,16 @@
 			path = TXVersionUpdateDemoUITests;
 			sourceTree = "<group>";
 		};
-		0CB001441EB02F5A00383BB3 /* TXVersionUpdate */ = {
+		0CB0014D1EB0422B00383BB3 /* TXVersionUpdate */ = {
 			isa = PBXGroup;
 			children = (
-				0CB001451EB02F5A00383BB3 /* Core */,
-				0CB0014A1EB02F5A00383BB3 /* TXVersionUpdate.h */,
+				0CB0014E1EB0422B00383BB3 /* TXAppStoreInfoModel.h */,
+				0CB0014F1EB0422B00383BB3 /* TXAppStoreInfoModel.m */,
+				0CB001501EB0422B00383BB3 /* TXVersionUpdate.h */,
+				0CB001511EB0422B00383BB3 /* TXVersionUpdateManager.h */,
+				0CB001521EB0422B00383BB3 /* TXVersionUpdateManager.m */,
 			);
 			path = TXVersionUpdate;
-			sourceTree = "<group>";
-		};
-		0CB001451EB02F5A00383BB3 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0CB001461EB02F5A00383BB3 /* TXAppStoreInfoModel.h */,
-				0CB001471EB02F5A00383BB3 /* TXAppStoreInfoModel.m */,
-				0CB001481EB02F5A00383BB3 /* TXVersionUpdateManager.h */,
-				0CB001491EB02F5A00383BB3 /* TXVersionUpdateManager.m */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +295,9 @@
 			files = (
 				0CB001081EB02E6400383BB3 /* ViewController.m in Sources */,
 				0CB001051EB02E6400383BB3 /* AppDelegate.m in Sources */,
-				0CB0014C1EB02F5A00383BB3 /* TXVersionUpdateManager.m in Sources */,
+				0CB001541EB0422B00383BB3 /* TXVersionUpdateManager.m in Sources */,
 				0CB001021EB02E6400383BB3 /* main.m in Sources */,
-				0CB0014B1EB02F5A00383BB3 /* TXAppStoreInfoModel.m in Sources */,
+				0CB001531EB0422B00383BB3 /* TXAppStoreInfoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +529,7 @@
 				0CB0012C1EB02E6500383BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CB0012D1EB02E6500383BB3 /* Build configuration list for PBXNativeTarget "TXVersionUpdateDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +538,7 @@
 				0CB0012F1EB02E6500383BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CB001301EB02E6500383BB3 /* Build configuration list for PBXNativeTarget "TXVersionUpdateDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +547,7 @@
 				0CB001321EB02E6500383BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
