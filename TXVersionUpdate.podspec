@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author       = { 'zhangxiong' => 'xtz_pioneer@163.com' }
   s.platform     = :ios
   s.source       = { :git => 'https://github.com/XTZPioneer/TXVersionUpdate.git', :tag => s.version.to_s }
-  s.source_files = 'TXVersionUpdate/*.{h,m}'
+  s.source_files = 'TXVersionUpdate/*'
   s.requires_arc = true  
 end
